@@ -29,7 +29,7 @@ const AddMorador = props => {
 			<label>Telefone</label>
 			<input type="text" name="Telefone" value={morador.Telefone} onChange={handleInputChange} />
 			<button>Adicionar morador</button>
-		</form>
+		</form> 
 	)
 }
 

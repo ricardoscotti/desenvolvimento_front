@@ -45,4 +45,4 @@ const MoradorTabela = props => (
   </table>
 )
 
-export default MoradorTabela
+export default MoradorTabela 

@@ -33,7 +33,7 @@ const EditMoradorForm = props => {
       <label>Telefone</label>
       <input type="text" name="Telefone" value={morador.Telefone} onChange={handleInputChange} />
       <button>Atualizar morador</button>
-      <button onClick={() => props.setEditing(false)} className="button muted-button">
+      <button onClick={() => props.setEditing(false)} className="button muted-button"> 
         Cancelar
       </button>
     </form>

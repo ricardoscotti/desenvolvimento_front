@@ -36,7 +36,7 @@ const App = () => {
 	}
 
 	const editRow = morador => {
-		setEditing(true)
+		setEditing(true) 
 
 		setMoradorAtual({ id: morador.id, nome: morador.nome, cpf: morador.cpf, DTNascimento: morador.DTNascimento, Telefone: morador.Telefone })
 	}
